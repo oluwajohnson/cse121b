@@ -31,12 +31,12 @@ let placesLived=[]
    placesLived.push(
         {
             place: 'Abuja, Nigeria',
-            length: '2 year'
+            length: '2 years'
         },
         
         {
             place: 'Lagos, Nigeria',
-            length: '3 year'
+            length: '3 years'
         },
 
     );
