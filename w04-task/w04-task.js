@@ -5,7 +5,7 @@
 let myProfile ={
     name:'Ogunleye Johnson'
 }
-const profilePicture='/W02-task/images/pic.png'
+const profilePicture='/pic.png'
 
  const favouriteFoods=[
     'Pounded Yam',
@@ -41,7 +41,7 @@ let placesLived=[]
 
     );
 
-console.log('myProfile',myProfile)
+console.log('myProfilename',myProfile)
 /* DOM Manipulation - Output */
 
 /* Name */
@@ -71,7 +71,7 @@ hobbies.forEach(hobby => {
 
 /* Places Lived DataList */
 placesLived.forEach(places => {
-    console.log('myplaces',places)
+    console.log('myplace',places)
     let li = document.createElement('li');
     
     li.textContent = `${places.place}\n${places.length}`;
