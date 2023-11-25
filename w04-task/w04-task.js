@@ -71,7 +71,7 @@ hobbies.forEach(hobby => {
 
 /* Places Lived DataList */
 placesLived.forEach(places => {
-    console.log('places',places)
+    console.log('myplaces',places)
     let li = document.createElement('li');
     
     li.textContent = `${places.place}\n${places.length}`;
