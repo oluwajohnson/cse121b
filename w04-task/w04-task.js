@@ -5,7 +5,7 @@
 let myProfile ={
     name:'Ogunleye Johnson'
 }
-let profilePicture='/pic.png'
+const profilePicture='/pic.png'
 
  const favouriteFoods=[
     'Pounded Yam',
