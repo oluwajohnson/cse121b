@@ -41,7 +41,7 @@ let placesLived=[]
 
     );
 
-console.log('myProfilename',myProfile)
+console.log('myProfile',myProfile)
 /* DOM Manipulation - Output */
 
 /* Name */
