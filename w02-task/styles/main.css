@@ -102,6 +102,7 @@ picture img {
     box-shadow: 0 0 30px #777;
 }
 
+
 section {
     display: flex;
     flex-direction: column;
@@ -208,6 +209,10 @@ footer {
     justify-content: center;
 }
 
+#temple:hover {
+    transform: scale(1.5);
+}
+
 
 #section1 {
     background-color: rgb(225, 250, 225, .5);
@@ -277,6 +282,11 @@ footer {
     height: auto;
     box-shadow: 0 0 30px #777;
     margin: .5rem;
+}
+
+#temples img:hover {
+    transform: scale(2.5);
+    margin:auto 0;
 }
 
 /* Media Queries */
